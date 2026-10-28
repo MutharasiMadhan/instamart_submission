@@ -1,0 +1,25 @@
+{
+  "run_id": "demo_s1_timeout",
+  "scenario_id": "S1_TIMEOUT",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AGENT. Use tools to inspect orders, consult policy and follow refund rules. Do not invent observations."
+    },
+    {
+      "role": "user",
+      "content": "My order ORD-100048 reached me very late. I would like a refund."
+    }
+  ],
+  "tokens_used": 0,
+  "step_number": 0,
+  "llm_calls": 0,
+  "tools_executed": [],
+  "steps": [],
+  "settings": {
+    "max_iterations": 6,
+    "token_limit": 6000,
+    "time_limit_seconds": 0,
+    "started_monotonic": 993.254513258
+  }
+}

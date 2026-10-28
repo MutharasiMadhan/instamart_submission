@@ -1,0 +1,5 @@
+segment_id,size,mean_recency,mean_frequency,mean_monetary,segment_name,recommended_action
+0,436,28.862385321100916,3.772935779816514,1057.618233944954,Occasional Value Seekers,Use relevant bundles and low-friction second-order incentives.
+1,138,24.115942028985508,6.768115942028985,7129.695652173913,Premium High-Value,Offer a personal loyalty benefit and early access; protect the relationship.
+2,419,8.766109785202865,19.403341288782816,3410.020525059666,Frequent Loyalists,Use replenishment reminders and a subscription or streak reward.
+3,182,109.04395604395604,2.2032967032967035,685.9925824175824,Cooling Customers,Send a targeted win-back offer and ask what changed.

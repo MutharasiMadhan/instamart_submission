@@ -1,0 +1,105 @@
+{
+  "redactions_all_tickets": {
+    "email": 55,
+    "phone": 91,
+    "order_id": 132
+  },
+  "zero_shot": {
+    "tickets": 164,
+    "status_counts": {
+      "classified_json": 135,
+      "classified_keyword": 12,
+      "flagged_invalid_output": 9,
+      "flagged_long": 4,
+      "skipped_empty": 4
+    },
+    "classified": 147,
+    "correct": 126,
+    "accuracy": 0.8571428571428571,
+    "total_tokens": 13144,
+    "tokens_per_classified_ticket": 89.41496598639456,
+    "redactions": {
+      "email": 55,
+      "phone": 91,
+      "order_id": 132
+    },
+    "redactions_total": 278,
+    "redaction_leftovers": 0,
+    "retry_count": 19,
+    "premium_rows_in_final": 12
+  },
+  "few_shot": {
+    "tickets": 164,
+    "status_counts": {
+      "classified_json": 135,
+      "classified_keyword": 12,
+      "flagged_invalid_output": 9,
+      "flagged_long": 4,
+      "skipped_empty": 4
+    },
+    "classified": 147,
+    "correct": 147,
+    "accuracy": 1.0,
+    "total_tokens": 25000,
+    "tokens_per_classified_ticket": 170.06802721088437,
+    "redactions": {
+      "email": 55,
+      "phone": 91,
+      "order_id": 132
+    },
+    "redactions_total": 278,
+    "redaction_leftovers": 0,
+    "retry_count": 19,
+    "premium_rows_in_final": 11
+  },
+  "budget_demo": {
+    "tickets": 164,
+    "status_counts": {
+      "budget_exhausted": 84,
+      "classified_json": 63,
+      "classified_keyword": 5,
+      "skipped_empty": 4,
+      "flagged_long": 4,
+      "flagged_invalid_output": 4
+    },
+    "classified": 68,
+    "correct": 57,
+    "accuracy": 0.8382352941176471,
+    "total_tokens": 6076,
+    "tokens_per_classified_ticket": 89.3529411764706,
+    "redactions": {
+      "email": 55,
+      "phone": 91,
+      "order_id": 132
+    },
+    "redactions_total": 278,
+    "redaction_leftovers": 0,
+    "retry_count": 8,
+    "premium_rows_in_final": 7,
+    "budget_used": 6000
+  },
+  "final_few_shot": {
+    "tickets": 164,
+    "status_counts": {
+      "classified_json": 135,
+      "classified_keyword": 12,
+      "flagged_invalid_output": 9,
+      "flagged_long": 4,
+      "skipped_empty": 4
+    },
+    "classified": 147,
+    "correct": 147,
+    "accuracy": 1.0,
+    "total_tokens": 25000,
+    "tokens_per_classified_ticket": 170.06802721088437,
+    "redactions": {
+      "email": 55,
+      "phone": 91,
+      "order_id": 132
+    },
+    "redactions_total": 278,
+    "redaction_leftovers": 0,
+    "retry_count": 19,
+    "premium_rows_in_final": 11
+  }
+}

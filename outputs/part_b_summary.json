@@ -1,0 +1,33 @@
+{
+  "snapshot": "2025-10-01 00:00:00",
+  "cutoff": "2025-09-01 00:00:00",
+  "rfm_customers": 1175,
+  "cohort_customers": 1156,
+  "lapsed_customers": 443,
+  "train_rows": 924,
+  "test_rows": 232,
+  "chosen_k": 4,
+  "premium_segment_id": 1,
+  "pca_explained_variance_ratio": [
+    0.6342787496047422,
+    0.21803761714547434
+  ],
+  "logistic_best_params": {
+    "model__C": 100
+  },
+  "logistic_best_cv_f1": 0.650552962900789,
+  "rf_best_params": {
+    "model__max_depth": 8,
+    "model__min_samples_leaf": 10
+  },
+  "rf_best_cv_f1": 0.6828680972842264,
+  "selected_model": "RandomForestClassifier",
+  "selected_test_f1": 0.6590909090909091,
+  "oversampled_counts": {
+    "0": 570,
+    "1": 570
+  },
+  "reloaded_predictions_exact_match": true,
+  "retention_list_rows": 10,
+  "retention_list_true_lapsed": 2
+}
